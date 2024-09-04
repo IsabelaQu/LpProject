@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255); 
+    background: #034159; 
+}
+
+.background {
+    background-color: #02735E;
+    padding: 20px 0; 
+    border-bottom: 1px solid #ddd; 
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #dadada; 
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    align-items: center; /* Alinhe verticalmente os itens dentro do link */
+    gap: 10px; /* Espaço entre o ícone e o texto */
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Estilo dos links ativos */
+.nav-link.active {
+    color: #fff; /* Cor do texto ativo */
+    background-color: #007bff; /* Cor de fundo do link ativo */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+/* Efeito de hover nos links */
+.nav-link:hover {
+    color: #0CF25D; /* Cor do texto quando passar o mouse */
+    background-color: #0056b3; /* Cor de fundo quando passar o mouse */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+.nav-link img {
+    width: 24px; /* Defina um tamanho fixo para os ícones */
+    height: 24px;
+    vertical-align: middle; /* Alinha verticalmente o ícone com o texto */
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center; 
+}
+
+.gap-2 {
+    gap: 10px; 
+}
+
+.py-5 {
+    padding: 20px 0; 
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
